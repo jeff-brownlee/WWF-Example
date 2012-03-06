@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F750BB014FF21200095B621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F750BAF14FF21200095B621 /* Foundation.framework */; };
+		1F750BB314FF21200095B621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F750BB214FF21200095B621 /* main.m */; };
+		1F750BB714FF21200095B621 /* WordsWithFriends.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F750BB614FF21200095B621 /* WordsWithFriends.1 */; };
+		1F750BBF14FF21450095B621 /* WWFBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F750BBE14FF21450095B621 /* WWFBoard.m */; };
+		1F750BC214FF215A0095B621 /* WWFSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F750BC114FF215A0095B621 /* WWFSquare.m */; };
+		1F750BC814FF27330095B621 /* WWFMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F750BC714FF27330095B621 /* WWFMove.m */; };
+		1F750BCB15016CF40095B621 /* WWFTilePlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F750BCA15016CF40095B621 /* WWFTilePlay.m */; };
+		1F750BCE150501A00095B621 /* WWFWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F750BCD150501A00095B621 /* WWFWord.m */; };
+		1F750BD41505951C0095B621 /* WWFTestGame1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F750BD31505951C0095B621 /* WWFTestGame1.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F750BA914FF21200095B621 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1F750BB714FF21200095B621 /* WordsWithFriends.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F750BAB14FF21200095B621 /* WordsWithFriends */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WordsWithFriends; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F750BAF14FF21200095B621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F750BB214FF21200095B621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F750BB514FF21200095B621 /* WordsWithFriends-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordsWithFriends-Prefix.pch"; sourceTree = "<group>"; };
+		1F750BB614FF21200095B621 /* WordsWithFriends.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WordsWithFriends.1; sourceTree = "<group>"; };
+		1F750BBD14FF21450095B621 /* WWFBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWFBoard.h; sourceTree = "<group>"; };
+		1F750BBE14FF21450095B621 /* WWFBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWFBoard.m; sourceTree = "<group>"; };
+		1F750BC014FF215A0095B621 /* WWFSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWFSquare.h; sourceTree = "<group>"; };
+		1F750BC114FF215A0095B621 /* WWFSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWFSquare.m; sourceTree = "<group>"; };
+		1F750BC614FF27330095B621 /* WWFMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWFMove.h; sourceTree = "<group>"; };
+		1F750BC714FF27330095B621 /* WWFMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWFMove.m; sourceTree = "<group>"; };
+		1F750BC915016CF40095B621 /* WWFTilePlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWFTilePlay.h; sourceTree = "<group>"; };
+		1F750BCA15016CF40095B621 /* WWFTilePlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWFTilePlay.m; sourceTree = "<group>"; };
+		1F750BCC150501A00095B621 /* WWFWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWFWord.h; sourceTree = "<group>"; };
+		1F750BCD150501A00095B621 /* WWFWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWFWord.m; sourceTree = "<group>"; };
+		1F750BD21505951C0095B621 /* WWFTestGame1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWFTestGame1.h; sourceTree = "<group>"; };
+		1F750BD31505951C0095B621 /* WWFTestGame1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWFTestGame1.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F750BA814FF21200095B621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F750BB014FF21200095B621 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F750BA014FF21200095B621 = {
+			isa = PBXGroup;
+			children = (
+				1F750BB114FF21200095B621 /* WordsWithFriends */,
+				1F750BAE14FF21200095B621 /* Frameworks */,
+				1F750BAC14FF21200095B621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F750BAC14FF21200095B621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F750BAB14FF21200095B621 /* WordsWithFriends */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F750BAE14FF21200095B621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F750BAF14FF21200095B621 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F750BB114FF21200095B621 /* WordsWithFriends */ = {
+			isa = PBXGroup;
+			children = (
+				1F750BB214FF21200095B621 /* main.m */,
+				1F750BB614FF21200095B621 /* WordsWithFriends.1 */,
+				1F750BB414FF21200095B621 /* Supporting Files */,
+				1F750BBD14FF21450095B621 /* WWFBoard.h */,
+				1F750BBE14FF21450095B621 /* WWFBoard.m */,
+				1F750BC014FF215A0095B621 /* WWFSquare.h */,
+				1F750BC114FF215A0095B621 /* WWFSquare.m */,
+				1F750BC614FF27330095B621 /* WWFMove.h */,
+				1F750BC714FF27330095B621 /* WWFMove.m */,
+				1F750BC915016CF40095B621 /* WWFTilePlay.h */,
+				1F750BCA15016CF40095B621 /* WWFTilePlay.m */,
+				1F750BCC150501A00095B621 /* WWFWord.h */,
+				1F750BCD150501A00095B621 /* WWFWord.m */,
+				1F750BD21505951C0095B621 /* WWFTestGame1.h */,
+				1F750BD31505951C0095B621 /* WWFTestGame1.m */,
+			);
+			path = WordsWithFriends;
+			sourceTree = "<group>";
+		};
+		1F750BB414FF21200095B621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F750BB514FF21200095B621 /* WordsWithFriends-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F750BAA14FF21200095B621 /* WordsWithFriends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F750BBA14FF21200095B621 /* Build configuration list for PBXNativeTarget "WordsWithFriends" */;
+			buildPhases = (
+				1F750BA714FF21200095B621 /* Sources */,
+				1F750BA814FF21200095B621 /* Frameworks */,
+				1F750BA914FF21200095B621 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordsWithFriends;
+			productName = WordsWithFriends;
+			productReference = 1F750BAB14FF21200095B621 /* WordsWithFriends */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F750BA214FF21200095B621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1F750BA514FF21200095B621 /* Build configuration list for PBXProject "WordsWithFriends" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F750BA014FF21200095B621;
+			productRefGroup = 1F750BAC14FF21200095B621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F750BAA14FF21200095B621 /* WordsWithFriends */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F750BA714FF21200095B621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F750BB314FF21200095B621 /* main.m in Sources */,
+				1F750BBF14FF21450095B621 /* WWFBoard.m in Sources */,
+				1F750BC214FF215A0095B621 /* WWFSquare.m in Sources */,
+				1F750BC814FF27330095B621 /* WWFMove.m in Sources */,
+				1F750BCB15016CF40095B621 /* WWFTilePlay.m in Sources */,
+				1F750BCE150501A00095B621 /* WWFWord.m in Sources */,
+				1F750BD41505951C0095B621 /* WWFTestGame1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F750BB814FF21200095B621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F750BB914FF21200095B621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F750BBB14FF21200095B621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordsWithFriends/WordsWithFriends-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F750BBC14FF21200095B621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordsWithFriends/WordsWithFriends-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F750BA514FF21200095B621 /* Build configuration list for PBXProject "WordsWithFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F750BB814FF21200095B621 /* Debug */,
+				1F750BB914FF21200095B621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F750BBA14FF21200095B621 /* Build configuration list for PBXNativeTarget "WordsWithFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F750BBB14FF21200095B621 /* Debug */,
+				1F750BBC14FF21200095B621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F750BA214FF21200095B621 /* Project object */;
+}
